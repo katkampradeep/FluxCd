@@ -1,0 +1,20 @@
+[
+    {
+      "name": "HTTP",
+      "from_port": 80,
+      "to_port": 80,
+      "protocol": "tcp",
+      "description": "Allow HTTP traffic",
+      "cidr_blocks": ["0.0.0.0/0"],
+      "ipv6_cidr_blocks": ["::/0"]
+    },
+    {
+        "name": "SSH",
+        "from_port": 22,
+        "to_port": 22,
+        "protocol": "tcp",
+        "description": "Allow SSH traffic",
+        "cidr_blocks": ["0.0.0.0/0"],
+        "ipv6_cidr_blocks": ["::/0"]
+    }
+]
